@@ -1,6 +1,6 @@
-age = int(input("Введите ваш возраст (в годах): "))
-height = int(input("Введите ваш рост (в см): "))
-pol = input("Введите ваш пол (М или Ж): ")
+age = int(input("Введите ваш возраст: "))
+height = int(input("Введите ваш рост: "))
+pol = input("Введите ваш пол М или Ж: ")
 
 if pol == "М":
     ideal_weight = height - 100 - ((height - 150) / 4 + (age - 20) / 4)
