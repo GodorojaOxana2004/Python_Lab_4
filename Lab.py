@@ -12,7 +12,7 @@ else:
 
 print("Ваш идеальный вес: {} кг".format(ideal_weight))
 
-weight_now = float(input("Введите ваш текущий вес (в кг): "))
+weight_now = float(input("Введите ваш текущий вес: "))
 if weight_now > ideal_weight:
     print("Вам необходимо снизить свой вес.")
 elif weight_now < ideal_weight:
